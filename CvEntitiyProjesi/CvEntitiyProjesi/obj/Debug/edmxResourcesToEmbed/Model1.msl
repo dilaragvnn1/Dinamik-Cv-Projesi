@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DbCvEntitiyModelStoreContainer" CdmEntityContainer="DbCvEntitiyEntities">
+    <EntitySetMapping Name="Adres">
+      <EntityTypeMapping TypeName="DbCvEntitiyModel.Adres">
+        <MappingFragment StoreEntitySet="Adres">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Adres1" ColumnName="Adres" />
+          <ScalarProperty Name="Konum" ColumnName="Konum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Calismalarim">
+      <EntityTypeMapping TypeName="DbCvEntitiyModel.Calismalarim">
+        <MappingFragment StoreEntitySet="Calismalarim">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Adres" ColumnName="Adres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Hakkimda">
+      <EntityTypeMapping TypeName="DbCvEntitiyModel.Hakkimda">
+        <MappingFragment StoreEntitySet="Hakkimda">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Bilgiler" ColumnName="Bilgiler" />
+          <ScalarProperty Name="Eğitim" ColumnName="Eğitim" />
+          <ScalarProperty Name="İsDeneyimleri" ColumnName="İsDeneyimleri" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="İleitisim">
+      <EntityTypeMapping TypeName="DbCvEntitiyModel.İleitisim">
+        <MappingFragment StoreEntitySet="İleitisim">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AdSoyad" ColumnName="AdSoyad" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Mesaj" ColumnName="Mesaj" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Yetenek">
+      <EntityTypeMapping TypeName="DbCvEntitiyModel.Yetenek">
+        <MappingFragment StoreEntitySet="Yetenek">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Yetenek1" ColumnName="Yetenek" />
+          <ScalarProperty Name="Derece" ColumnName="Derece" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
